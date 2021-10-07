@@ -15,13 +15,13 @@ def maxProduct(array):
 
 
 # Given a list
-arr = [1, 10, 2, 6, 5, 3]
+array = [1, 10, 2, 6, 5, 3]
 
 # Sorting the list from low to high
-sorted = arr.sort()
+sorted = array.sort()
  
 # Calling our function
-max = maxProduct(arr)
+max = maxProduct(array)
  
 
 if max == -1:
